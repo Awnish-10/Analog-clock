@@ -5,7 +5,7 @@ function rotate(){
   var min = date.getMinutes();
   var sec= date.getSeconds();
 
-  var hRot = 30 * hr;
+  var hRot = 30 * hr+ min/2;
   var mRot = 6 * min;
   var sRot = 6 * sec;
   var hour = document.querySelector(".hour");
